@@ -8,10 +8,10 @@ export default props =>
       {props.remaining === 1 ? ' todo' : ' todos'} left
     </span>
     <ul className="filters">
-      <li><Link to="/">All</Link></li>
+      <li><Link className="all" to="/">All</Link></li>
       {' '}
-      <li><Link to="/active">Active</Link></li>
+      <li><Link className="active" to="/active">Active</Link></li>
       {' '}
-      <li><Link to="/completed">Completed</Link></li>
+      <li><Link className="completed" to="/completed">Completed</Link></li>
     </ul>
   </footer>

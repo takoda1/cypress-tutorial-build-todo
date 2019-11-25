@@ -7,7 +7,7 @@
   {
     "id": 2,
     "name": "Buy Eggs",
-    "isComplete": true
+    "isComplete": false
   },
   {
     "id": 3,
