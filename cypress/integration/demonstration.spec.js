@@ -32,14 +32,14 @@ describe('App initialization', () => {
         //Check todo count for correct number of items
     })
 
-    it('Should not have the completed item in active', () => {
+    it('Should not have the completed item in active list', () => {
         cy.get('.active').click();
         cy.get('.todo-list li').not('contains', 'Buy Milk');
     });
 
-    it('Should have the completed item in completed', () => {
+    it('Should have the completed item in completed list', () => {
         //TODO
-        // Click on link with class 'completed' 
-        // and check that 'Buy Milk is in the todo list
+        // Click on completed button (class .completed) 
+        // and check that 'Buy Milk' is in that list
     });
 });
